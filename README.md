@@ -1,4 +1,5 @@
 Чтобы запустить ядро наберите в консоли:qemu-system-i386 -kernel kernel
+
 Команды сборки
 nasm -f elf32 kernel.asm -o kasm.o
 gcc -m32 -c kernel.c -o kc.o
