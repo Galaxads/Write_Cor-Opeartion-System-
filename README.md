@@ -11,6 +11,7 @@ kernel.c:(.text+0x129): undefined reference to `__stack_chk_fail'
 компилируйте с помощью -fno-stack-protector опции:
 
 gcc -fno-stack-protector -m32 -c kernel.c -o kc.o
+
 Тест на эмуляторе
 qemu-system-i386 -kernel kernel
 
